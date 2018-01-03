@@ -10,9 +10,9 @@ Brought to you by:
 
 Edited by 
 
-'''Muhumuza Joshua josh.jesusreigns@gmail.com'''
-'''Kasumba robert robein@ymail.com'''
-'''Mary Nsabagwa marynsabagwa@gmail.com'''
+*Muhumuza Joshua josh.jesusreigns@gmail.com
+*Kasumba robert robein@ymail.com
+*Mary Nsabagwa marynsabagwa@gmail.com
 
 Scope
 -----
