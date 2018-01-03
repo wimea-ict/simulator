@@ -1,4 +1,4 @@
-The 6TiSCH Simulator
+The 6TiSCH Simulator based on Centralized Scheduling
 ====================
 
 Brought to you by:
@@ -8,7 +8,7 @@ Brought to you by:
 * Nicola Accettura (nicola.accettura@eecs.berkeley.edu)
 * Xavier Vilajosana (xvilajosana@eecs.berkeley.edu)
 
-Edited by
+Edited by 
 
 '''Muhumuza Joshua josh.jesusreigns@gmail.com'''
 '''Kasumba robert robein@ymail.com'''
