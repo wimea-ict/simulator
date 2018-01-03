@@ -8,6 +8,12 @@ Brought to you by:
 * Nicola Accettura (nicola.accettura@eecs.berkeley.edu)
 * Xavier Vilajosana (xvilajosana@eecs.berkeley.edu)
 
+Edited by
+
+'''Muhumuza Joshua josh.jesusreigns@gmail.com'''
+'''Kasumba robert robein@ymail.com'''
+'''Mary Nsabagwa marynsabagwa@gmail.com'''
+
 Scope
 -----
 
