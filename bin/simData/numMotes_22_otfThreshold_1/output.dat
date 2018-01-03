@@ -1,0 +1,124 @@
+## dioPeriod = 1.0
+## burstTimestamp = 20
+## minRssi = -97
+## numMotes = 22
+## otfHousekeepingPeriod = 5.0
+## _init = True
+## sixtopNoRemoveWorstCell = 0
+## simDataDir = simData
+## numChans = 16
+## slotframeLength = 101
+## squareSide = 2.0
+## cpuID = None
+## sixtopPdrThreshold = 1.5
+## pkPeriod = 1.0
+## sixtopHousekeepingPeriod = 1.0
+## sixtopNoHousekeeping = 0
+## pkPeriodVar = 0.05
+## numCyclesPerRun = 100
+## startTime = 1512122509.95
+## slotDuration = 0.9
+## numRuns = 2
+## combinationKeys = ['numMotes', 'otfThreshold']
+## gui = True
+## numPacketsBurst = 5
+## otfThreshold = 1
+## noInterference = 0
+## slotLength = 3000
+
+
+ #position of mote at runNum=0 mote id: 0 mote x,y coordinate: (1.00000,1.00000) mote-rank: None 
+ mote id: 1 mote x,y coordinate: (1.07085,1.66288) mote-rank: 17066 
+ mote id: 2 mote x,y coordinate: (0.03134,0.80132) mote-rank: 25314 
+ mote id: 3 mote x,y coordinate: (1.29124,0.65998) mote-rank: 11460 
+ mote id: 4 mote x,y coordinate: (0.27812,1.73082) mote-rank: 26297 
+ mote id: 5 mote x,y coordinate: (1.06588,0.59102) mote-rank: 10604 
+ mote id: 6 mote x,y coordinate: (1.21602,1.10020) mote-rank: 6096 
+ mote id: 7 mote x,y coordinate: (0.25659,0.63440) mote-rank: 21208 
+ mote id: 8 mote x,y coordinate: (0.00177,0.26451) mote-rank: 31741 
+ mote id: 9 mote x,y coordinate: (1.47192,0.23940) mote-rank: 22914 
+ mote id: 10 mote x,y coordinate: (0.05669,1.48867) mote-rank: 27196 
+ mote id: 11 mote x,y coordinate: (0.41579,0.11178) mote-rank: 27215 
+ mote id: 12 mote x,y coordinate: (1.29493,0.79185) mote-rank: 9241 
+ mote id: 13 mote x,y coordinate: (0.63822,0.45498) mote-rank: 16746 
+ mote id: 14 mote x,y coordinate: (1.47669,1.78284) mote-rank: 23463 
+ mote id: 15 mote x,y coordinate: (0.29527,1.49963) mote-rank: 22115 
+ mote id: 16 mote x,y coordinate: (0.37810,1.45392) mote-rank: 19710 
+ mote id: 17 mote x,y coordinate: (0.80145,0.89405) mote-rank: 5761 
+ mote id: 18 mote x,y coordinate: (1.15384,1.30577) mote-rank: 8762 
+ mote id: 19 mote x,y coordinate: (1.21048,0.34240) mote-rank: 17675 
+ mote id: 20 mote x,y coordinate: (0.50277,1.25054) mote-rank: 14253 
+ mote id: 21 mote x,y coordinate: (1.60067,0.05557) mote-rank: 28653 
+
+
+
+ #The topology of the simulation at numRun=0 1->0 
+ 2->0 
+ 3->0 
+ 4->17 
+ 5->0 
+ 6->0 
+ 7->0 
+ 8->13 
+ 9->0 
+ 10->17 
+ 11->17 
+ 12->0 
+ 13->0 
+ 14->0 
+ 15->0 
+ 16->0 
+ 17->0 
+ 18->0 
+ 19->0 
+ 20->0 
+ 21->12 
+
+
+ #position of mote at runNum=1 mote id: 0 mote x,y coordinate: (1.00000,1.00000) mote-rank: None 
+ mote id: 1 mote x,y coordinate: (0.89688,0.87307) mote-rank: 4186 
+ mote id: 2 mote x,y coordinate: (1.76584,0.91170) mote-rank: 19735 
+ mote id: 3 mote x,y coordinate: (1.20019,0.54817) mote-rank: 12651 
+ mote id: 4 mote x,y coordinate: (0.37765,0.39357) mote-rank: 22245 
+ mote id: 5 mote x,y coordinate: (0.21241,1.75254) mote-rank: 27886 
+ mote id: 6 mote x,y coordinate: (1.95189,0.22800) mote-rank: 31375 
+ mote id: 7 mote x,y coordinate: (0.15323,1.60529) mote-rank: 26645 
+ mote id: 8 mote x,y coordinate: (0.02314,0.82995) mote-rank: 25383 
+ mote id: 9 mote x,y coordinate: (0.18696,1.78119) mote-rank: 28864 
+ mote id: 10 mote x,y coordinate: (1.58209,1.30159) mote-rank: 16782 
+ mote id: 11 mote x,y coordinate: (0.63608,0.77319) mote-rank: 10977 
+ mote id: 12 mote x,y coordinate: (0.53219,1.36103) mote-rank: 15127 
+ mote id: 13 mote x,y coordinate: (1.12119,1.92667) mote-rank: 23924 
+ mote id: 14 mote x,y coordinate: (1.11373,1.11325) mote-rank: 4108 
+ mote id: 15 mote x,y coordinate: (0.82338,1.20274) mote-rank: 6883 
+ mote id: 16 mote x,y coordinate: (1.74532,1.75876) mote-rank: 27227 
+ mote id: 17 mote x,y coordinate: (1.77629,1.72063) mote-rank: 27115 
+ mote id: 18 mote x,y coordinate: (0.16675,0.62173) mote-rank: 23426 
+ mote id: 19 mote x,y coordinate: (0.97056,0.31277) mote-rank: 17609 
+ mote id: 20 mote x,y coordinate: (1.56765,0.27837) mote-rank: 23504 
+ mote id: 21 mote x,y coordinate: (0.09686,0.23875) mote-rank: 30237 
+
+
+
+ #The topology of the simulation at numRun=1 1->0 
+ 2->0 
+ 3->0 
+ 4->0 
+ 5->15 
+ 6->3 
+ 7->15 
+ 8->0 
+ 9->15 
+ 10->0 
+ 11->0 
+ 12->0 
+ 13->0 
+ 14->0 
+ 15->0 
+ 16->14 
+ 17->14 
+ 18->0 
+ 19->0 
+ 20->0 
+ 21->11 
+

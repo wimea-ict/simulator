@@ -1,0 +1,92 @@
+## dioPeriod = 1.0
+## burstTimestamp = 20
+## minRssi = -97
+## numMotes = 30
+## otfHousekeepingPeriod = 5.0
+## _init = True
+## sixtopNoRemoveWorstCell = 0
+## simDataDir = simData
+## numChans = 16
+## slotframeLength = 101
+## squareSide = 2.0
+## cpuID = None
+## sixtopPdrThreshold = 1.5
+## pkPeriod = 1.0
+## sixtopHousekeepingPeriod = 1.0
+## sixtopNoHousekeeping = 0
+## pkPeriodVar = 0.05
+## numCyclesPerRun = 100
+## startTime = 1513660813.75
+## slotDuration = 0.1
+## numRuns = 1
+## combinationKeys = ['numMotes', 'otfThreshold']
+## gui = True
+## numPacketsBurst = 5
+## otfThreshold = 1
+## noInterference = 0
+## slotLength = 3000
+
+
+ #position of mote at runNum=0 mote id: 0 mote x,y coordinate: (1.00000,1.00000) mote-rank: None 
+ mote id: 1 mote x,y coordinate: (0.22604,0.71254) mote-rank: 21135 
+ mote id: 2 mote x,y coordinate: (1.91051,0.48143) mote-rank: 26824 
+ mote id: 3 mote x,y coordinate: (0.11866,0.69791) mote-rank: 23850 
+ mote id: 4 mote x,y coordinate: (0.88505,0.13455) mote-rank: 22350 
+ mote id: 5 mote x,y coordinate: (0.42028,0.72838) mote-rank: 16388 
+ mote id: 6 mote x,y coordinate: (1.00429,1.89986) mote-rank: 23036 
+ mote id: 7 mote x,y coordinate: (0.89688,1.05928) mote-rank: 3044 
+ mote id: 8 mote x,y coordinate: (0.22377,0.84600) mote-rank: 20258 
+ mote id: 9 mote x,y coordinate: (0.46814,1.40266) mote-rank: 17077 
+ mote id: 10 mote x,y coordinate: (0.39898,0.73363) mote-rank: 16829 
+ mote id: 11 mote x,y coordinate: (1.76490,0.17849) mote-rank: 28735 
+ mote id: 12 mote x,y coordinate: (0.76619,0.69735) mote-rank: 9790 
+ mote id: 13 mote x,y coordinate: (1.73058,0.88984) mote-rank: 18914 
+ mote id: 14 mote x,y coordinate: (0.39117,0.82811) mote-rank: 16195 
+ mote id: 15 mote x,y coordinate: (0.77530,0.54412) mote-rank: 13011 
+ mote id: 16 mote x,y coordinate: (1.76614,1.46802) mote-rank: 22983 
+ mote id: 17 mote x,y coordinate: (0.15644,0.41400) mote-rank: 26294 
+ mote id: 18 mote x,y coordinate: (0.69377,0.79703) mote-rank: 9405 
+ mote id: 19 mote x,y coordinate: (1.43565,0.27289) mote-rank: 21699 
+ mote id: 20 mote x,y coordinate: (1.59936,0.76647) mote-rank: 16466 
+ mote id: 21 mote x,y coordinate: (0.86545,0.73627) mote-rank: 7579 
+ mote id: 22 mote x,y coordinate: (0.50902,1.28753) mote-rank: 14565 
+ mote id: 23 mote x,y coordinate: (0.99834,0.43723) mote-rank: 14407 
+ mote id: 24 mote x,y coordinate: (1.62811,0.31682) mote-rank: 23757 
+ mote id: 25 mote x,y coordinate: (0.20267,0.47948) mote-rank: 24376 
+ mote id: 26 mote x,y coordinate: (0.71152,1.90080) mote-rank: 24214 
+ mote id: 27 mote x,y coordinate: (0.57850,1.07353) mote-rank: 10953 
+ mote id: 28 mote x,y coordinate: (1.25829,1.83163) mote-rank: 22292 
+ mote id: 29 mote x,y coordinate: (0.99665,0.16129) mote-rank: 21471 
+
+
+
+ #The topology of the simulation at numRun=0 1->0 
+ 2->23 
+ 3->0 
+ 4->0 
+ 5->0 
+ 6->0 
+ 7->0 
+ 8->0 
+ 9->0 
+ 10->0 
+ 11->23 
+ 12->0 
+ 13->0 
+ 14->0 
+ 15->0 
+ 16->0 
+ 17->7 
+ 18->0 
+ 19->0 
+ 20->0 
+ 21->0 
+ 22->0 
+ 23->0 
+ 24->0 
+ 25->0 
+ 26->0 
+ 27->0 
+ 28->0 
+ 29->0 
+

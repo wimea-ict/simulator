@@ -1,0 +1,61 @@
+## dioPeriod = 1.0
+## startTime = 1512121042.6
+## numMotes = 6
+## otfHousekeepingPeriod = 5.0
+## _init = True
+## slotframeLength = 101
+## squareSide = 2.0
+## cpuID = None
+## sixtopPdrThreshold = 1.5
+## slotDuration = 0.9
+## sixtopNoHousekeeping = 0
+## pkPeriodVar = 0.05
+## numCyclesPerRun = 100
+## numRuns = 2
+## otfThreshold = 8
+## sixtopNoRemoveWorstCell = 0
+## burstTimestamp = 20
+## slotLength = 3000
+## simDataDir = simData
+## numChans = 16
+## minRssi = -97
+## noInterference = 0
+## _instance = None
+## numPacketsBurst = 5
+## gui = True
+## pkPeriod = 1.0
+## combinationKeys = ['numMotes', 'otfThreshold']
+## sixtopHousekeepingPeriod = 1.0
+
+
+ #position of mote at runNum=0 mote id: 0 mote x,y coordinate: (1.00000,1.00000) mote-rank: None 
+ mote id: 1 mote x,y coordinate: (1.41654,0.48231) mote-rank: 17010 
+ mote id: 2 mote x,y coordinate: (1.54018,1.66963) mote-rank: 22025 
+ mote id: 3 mote x,y coordinate: (0.42106,1.92002) mote-rank: 27827 
+ mote id: 4 mote x,y coordinate: (0.01692,1.51250) mote-rank: 28381 
+ mote id: 5 mote x,y coordinate: (0.12511,1.03785) mote-rank: 22418 
+
+
+
+ #The topology of the simulation at numRun=0 1->0 
+ 2->0 
+ 3->5 
+ 4->5 
+ 5->0 
+
+
+ #position of mote at runNum=1 mote id: 0 mote x,y coordinate: (1.00000,1.00000) mote-rank: None 
+ mote id: 1 mote x,y coordinate: (0.53852,1.64049) mote-rank: 20209 
+ mote id: 2 mote x,y coordinate: (1.25219,1.56717) mote-rank: 15890 
+ mote id: 3 mote x,y coordinate: (1.28993,0.97876) mote-rank: 7442 
+ mote id: 4 mote x,y coordinate: (0.55823,0.56022) mote-rank: 15957 
+ mote id: 5 mote x,y coordinate: (0.72997,1.41971) mote-rank: 12776 
+
+
+
+ #The topology of the simulation at numRun=1 1->0 
+ 2->0 
+ 3->0 
+ 4->0 
+ 5->0 
+

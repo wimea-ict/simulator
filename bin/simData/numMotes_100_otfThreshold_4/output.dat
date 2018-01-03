@@ -1,0 +1,233 @@
+## dioPeriod = 1.0
+## startTime = 1513661710.05
+## numMotes = 100
+## otfHousekeepingPeriod = 5.0
+## _init = True
+## slotframeLength = 101
+## squareSide = 2.0
+## cpuID = None
+## sixtopPdrThreshold = 1.5
+## slotDuration = 0.1
+## sixtopNoHousekeeping = 0
+## pkPeriodVar = 0.05
+## numCyclesPerRun = 100
+## numRuns = 1
+## otfThreshold = 4
+## sixtopNoRemoveWorstCell = 0
+## burstTimestamp = 20
+## slotLength = 3000
+## simDataDir = simData
+## numChans = 16
+## minRssi = -97
+## noInterference = 0
+## _instance = None
+## numPacketsBurst = 5
+## gui = True
+## pkPeriod = 1.0
+## combinationKeys = ['numMotes', 'otfThreshold']
+## sixtopHousekeepingPeriod = 1.0
+
+
+ #position of mote at runNum=0 mote id: 0 mote x,y coordinate: (1.00000,1.00000) mote-rank: None 
+ mote id: 1 mote x,y coordinate: (0.10107,0.31977) mote-rank: 28858 
+ mote id: 2 mote x,y coordinate: (1.19845,1.86978) mote-rank: 22838 
+ mote id: 3 mote x,y coordinate: (0.70485,1.99393) mote-rank: 26542 
+ mote id: 4 mote x,y coordinate: (1.83940,0.49068) mote-rank: 25135 
+ mote id: 5 mote x,y coordinate: (1.54373,1.98105) mote-rank: 28714 
+ mote id: 6 mote x,y coordinate: (1.44832,0.39731) mote-rank: 19229 
+ mote id: 7 mote x,y coordinate: (1.52809,1.39276) mote-rank: 16848 
+ mote id: 8 mote x,y coordinate: (0.24126,0.44581) mote-rank: 24053 
+ mote id: 9 mote x,y coordinate: (0.01838,1.51318) mote-rank: 28356 
+ mote id: 10 mote x,y coordinate: (0.51323,0.44175) mote-rank: 18961 
+ mote id: 11 mote x,y coordinate: (1.25669,1.21143) mote-rank: 8513 
+ mote id: 12 mote x,y coordinate: (0.74888,0.29078) mote-rank: 19260 
+ mote id: 13 mote x,y coordinate: (0.18521,1.35623) mote-rank: 22765 
+ mote id: 14 mote x,y coordinate: (0.74458,1.20073) mote-rank: 8316 
+ mote id: 15 mote x,y coordinate: (0.84995,1.71451) mote-rank: 18690 
+ mote id: 16 mote x,y coordinate: (0.72593,1.08781) mote-rank: 7367 
+ mote id: 17 mote x,y coordinate: (1.09581,0.34667) mote-rank: 16904 
+ mote id: 18 mote x,y coordinate: (0.37267,1.83594) mote-rank: 26755 
+ mote id: 19 mote x,y coordinate: (0.21336,0.00692) mote-rank: 32432 
+ mote id: 20 mote x,y coordinate: (1.66733,0.11349) mote-rank: 28405 
+ mote id: 21 mote x,y coordinate: (1.16427,0.80493) mote-rank: 6528 
+ mote id: 22 mote x,y coordinate: (1.98736,1.56264) mote-rank: 29092 
+ mote id: 23 mote x,y coordinate: (0.18850,0.16136) mote-rank: 29874 
+ mote id: 24 mote x,y coordinate: (0.09056,1.91013) mote-rank: 32937 
+ mote id: 25 mote x,y coordinate: (1.52259,1.15264) mote-rank: 13937 
+ mote id: 26 mote x,y coordinate: (0.90356,0.74557) mote-rank: 6965 
+ mote id: 27 mote x,y coordinate: (0.53418,1.79101) mote-rank: 23500 
+ mote id: 28 mote x,y coordinate: (0.52115,1.27597) mote-rank: 14148 
+ mote id: 29 mote x,y coordinate: (0.47381,1.63291) mote-rank: 21070 
+ mote id: 30 mote x,y coordinate: (1.07654,1.10409) mote-rank: 3307 
+ mote id: 31 mote x,y coordinate: (1.75411,0.99223) mote-rank: 19306 
+ mote id: 32 mote x,y coordinate: (1.11843,1.70374) mote-rank: 18269 
+ mote id: 33 mote x,y coordinate: (0.48303,1.06202) mote-rank: 13329 
+ mote id: 34 mote x,y coordinate: (1.33164,0.12520) mote-rank: 23950 
+ mote id: 35 mote x,y coordinate: (0.73403,0.60035) mote-rank: 12289 
+ mote id: 36 mote x,y coordinate: (0.01409,0.74782) mote-rank: 26051 
+ mote id: 37 mote x,y coordinate: (1.41414,1.22671) mote-rank: 12086 
+ mote id: 38 mote x,y coordinate: (1.42931,0.68811) mote-rank: 13584 
+ mote id: 39 mote x,y coordinate: (1.62416,1.68088) mote-rank: 23646 
+ mote id: 40 mote x,y coordinate: (1.09223,1.64954) mote-rank: 16795 
+ mote id: 41 mote x,y coordinate: (0.45663,0.13155) mote-rank: 26225 
+ mote id: 42 mote x,y coordinate: (0.93270,1.72791) mote-rank: 18714 
+ mote id: 43 mote x,y coordinate: (0.51915,0.39184) mote-rank: 19847 
+ mote id: 44 mote x,y coordinate: (1.30481,0.27233) mote-rank: 20196 
+ mote id: 45 mote x,y coordinate: (0.47461,1.65681) mote-rank: 21532 
+ mote id: 46 mote x,y coordinate: (0.50221,0.31240) mote-rank: 21731 
+ mote id: 47 mote x,y coordinate: (1.54026,0.79912) mote-rank: 14755 
+ mote id: 48 mote x,y coordinate: (1.34116,1.51607) mote-rank: 15837 
+ mote id: 49 mote x,y coordinate: (0.22190,0.17437) mote-rank: 29043 
+ mote id: 50 mote x,y coordinate: (0.16578,0.43820) mote-rank: 25747 
+ mote id: 51 mote x,y coordinate: (0.47068,0.72732) mote-rank: 15242 
+ mote id: 52 mote x,y coordinate: (1.68416,1.40212) mote-rank: 20315 
+ mote id: 53 mote x,y coordinate: (0.34139,1.04725) mote-rank: 16903 
+ mote id: 54 mote x,y coordinate: (0.34311,1.50750) mote-rank: 21250 
+ mote id: 55 mote x,y coordinate: (0.89865,0.91888) mote-rank: 3323 
+ mote id: 56 mote x,y coordinate: (1.96313,0.03700) mote-rank: 34866 
+ mote id: 57 mote x,y coordinate: (1.52469,1.80222) mote-rank: 24539 
+ mote id: 58 mote x,y coordinate: (1.68484,0.23421) mote-rank: 26300 
+ mote id: 59 mote x,y coordinate: (1.51874,1.83360) mote-rank: 25134 
+ mote id: 60 mote x,y coordinate: (1.66885,0.94172) mote-rank: 17187 
+ mote id: 61 mote x,y coordinate: (1.51038,1.59650) mote-rank: 20097 
+ mote id: 62 mote x,y coordinate: (1.45953,0.51361) mote-rank: 17129 
+ mote id: 63 mote x,y coordinate: (0.33017,0.03387) mote-rank: 30095 
+ mote id: 64 mote x,y coordinate: (0.10293,0.53981) mote-rank: 25810 
+ mote id: 65 mote x,y coordinate: (1.45735,1.59033) mote-rank: 19117 
+ mote id: 66 mote x,y coordinate: (0.24482,0.69038) mote-rank: 20894 
+ mote id: 67 mote x,y coordinate: (1.86915,1.64179) mote-rank: 27658 
+ mote id: 68 mote x,y coordinate: (1.42492,0.93038) mote-rank: 11022 
+ mote id: 69 mote x,y coordinate: (0.35073,1.87050) mote-rank: 27800 
+ mote id: 70 mote x,y coordinate: (1.64412,1.48566) mote-rank: 20651 
+ mote id: 71 mote x,y coordinate: (1.86351,1.48905) mote-rank: 25404 
+ mote id: 72 mote x,y coordinate: (0.41702,0.04154) mote-rank: 28718 
+ mote id: 73 mote x,y coordinate: (1.11440,0.43245) mote-rank: 14821 
+ mote id: 74 mote x,y coordinate: (0.40689,0.00317) mote-rank: 29694 
+ mote id: 75 mote x,y coordinate: (1.10170,0.09290) mote-rank: 23367 
+ mote id: 76 mote x,y coordinate: (1.66732,0.25884) mote-rank: 25531 
+ mote id: 77 mote x,y coordinate: (1.93597,0.85034) mote-rank: 24265 
+ mote id: 78 mote x,y coordinate: (1.10285,0.56174) mote-rank: 11524 
+ mote id: 79 mote x,y coordinate: (1.69837,0.14696) mote-rank: 28222 
+ mote id: 80 mote x,y coordinate: (1.46284,0.31020) mote-rank: 21265 
+ mote id: 81 mote x,y coordinate: (1.47651,0.43220) mote-rank: 18976 
+ mote id: 82 mote x,y coordinate: (0.48256,1.67116) mote-rank: 21695 
+ mote id: 83 mote x,y coordinate: (1.35321,0.37917) mote-rank: 18285 
+ mote id: 84 mote x,y coordinate: (1.98631,1.63998) mote-rank: 30099 
+ mote id: 85 mote x,y coordinate: (0.13837,0.21400) mote-rank: 29856 
+ mote id: 86 mote x,y coordinate: (1.48276,0.49726) mote-rank: 17843 
+ mote id: 87 mote x,y coordinate: (1.04992,0.34515) mote-rank: 16812 
+ mote id: 88 mote x,y coordinate: (1.43692,1.32773) mote-rank: 13981 
+ mote id: 89 mote x,y coordinate: (1.34577,1.19866) mote-rank: 10208 
+ mote id: 90 mote x,y coordinate: (1.85720,0.18775) mote-rank: 30231 
+ mote id: 91 mote x,y coordinate: (1.77754,1.16245) mote-rank: 20334 
+ mote id: 92 mote x,y coordinate: (0.17932,1.87230) mote-rank: 30660 
+ mote id: 93 mote x,y coordinate: (1.20996,0.18817) mote-rank: 21466 
+ mote id: 94 mote x,y coordinate: (1.01000,1.19904) mote-rank: 5101 
+ mote id: 95 mote x,y coordinate: (0.83546,1.14152) mote-rank: 5555 
+ mote id: 96 mote x,y coordinate: (1.88813,0.85617) mote-rank: 23032 
+ mote id: 97 mote x,y coordinate: (0.08045,1.29058) mote-rank: 24687 
+ mote id: 98 mote x,y coordinate: (1.41614,0.31586) mote-rank: 20499 
+ mote id: 99 mote x,y coordinate: (1.10230,1.82683) mote-rank: 21328 
+
+
+
+ #The topology of the simulation at numRun=0 1->55 
+ 2->0 
+ 3->30 
+ 4->0 
+ 5->30 
+ 6->0 
+ 7->0 
+ 8->0 
+ 9->95 
+ 10->0 
+ 11->0 
+ 12->0 
+ 13->0 
+ 14->0 
+ 15->0 
+ 16->0 
+ 17->0 
+ 18->94 
+ 19->35 
+ 20->21 
+ 21->0 
+ 22->11 
+ 23->26 
+ 24->14 
+ 25->0 
+ 26->0 
+ 27->0 
+ 28->0 
+ 29->0 
+ 30->0 
+ 31->0 
+ 32->0 
+ 33->0 
+ 34->0 
+ 35->0 
+ 36->55 
+ 37->0 
+ 38->0 
+ 39->0 
+ 40->0 
+ 41->55 
+ 42->0 
+ 43->0 
+ 44->0 
+ 45->0 
+ 46->0 
+ 47->0 
+ 48->0 
+ 49->26 
+ 50->55 
+ 51->0 
+ 52->0 
+ 53->0 
+ 54->0 
+ 55->0 
+ 56->38 
+ 57->0 
+ 58->21 
+ 59->0 
+ 60->0 
+ 61->0 
+ 62->0 
+ 63->26 
+ 64->55 
+ 65->0 
+ 66->0 
+ 67->30 
+ 68->0 
+ 69->94 
+ 70->0 
+ 71->0 
+ 72->26 
+ 73->0 
+ 74->26 
+ 75->0 
+ 76->0 
+ 77->0 
+ 78->0 
+ 79->21 
+ 80->0 
+ 81->0 
+ 82->0 
+ 83->0 
+ 84->11 
+ 85->26 
+ 86->0 
+ 87->0 
+ 88->0 
+ 89->0 
+ 90->21 
+ 91->0 
+ 92->95 
+ 93->0 
+ 94->0 
+ 95->0 
+ 96->0 
+ 97->0 
+ 98->0 
+ 99->0 
+

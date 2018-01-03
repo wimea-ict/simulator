@@ -1,0 +1,35 @@
+## dioPeriod = 1.0
+## startTime = 1510989210.17
+## numMotes = 16
+## otfHousekeepingPeriod = 5.0
+## slotframeLength = 101
+## squareSide = 2.0
+## cpuID = None
+## sixtopPdrThreshold = 1.5
+## slotDuration = 0.9
+## sixtopNoHousekeeping = 0
+## pkPeriodVar = 0.05
+## numCyclesPerRun = 100
+## numRuns = 2
+## otfThreshold = 4
+## sixtopNoRemoveWorstCell = 0
+## burstTimestamp = 20
+## slotLength = 3000
+## simDataDir = simData
+## numChans = 16
+## minRssi = -97
+## noInterference = 0
+## numPacketsBurst = 5
+## gui = True
+## pkPeriod = 1.0
+## combinationKeys = ['numMotes', 'otfThreshold']
+## sixtopHousekeepingPeriod = 1.0
+
+
+# appGenerated appReachesDagroot appRelayed aveHops aveLatency aveQueueDelay awake chargeConsumed collidedTxs cycle droppedAppFailedEnqueue droppedMacRetries droppedNoRoute droppedNoTxCells droppedQueueFull effectiveCollidedTxs idle numRxCells numTx numTxCells otfAdd otfRemove probableCollisions rplChurnParentSet rplChurnPrefParent rplChurnRank rplRxDIO rplTxDIO runNum scheduleCollisions sleep topRxRelocatedCells topTxRelocatedBundles topTxRelocatedCells txQueueFill
+          1377                30          1   1.033     43.667       202.571   963      16177.480           0     0                    1176                21              0                0             1182                    0  271         23   159         23     49         0                  0                15                  0           37      766      127      0                  0  2026                   0                     0                   0         150
+          2892                63          1   1.016     84.651       433.486  1959      34506.800           0     1                    2626                53              0                0             2640                    0  560         23   340         23     95         0                  0                15                  0           85     1534      255      0                  0  4144                   0                     0                   0         150
+          4407                97          1   1.010    104.557       553.485  2996      52933.960           0     2                    4083                77              0                0             4111                    0  864         23   518         23    137         0                  0                15                  0          125     2302      383      0                  0  6278                   0                     0                   0         150
+          5922               134          1   1.007    116.821       628.205  3839      71040.560           0     3                    5530               108              0                0             5568                    0 1095         23   693         23    182         0                  0                15                  0          153     3070      511      0                  0  7805                   0                     0                   0         150
+          7437               164          1   1.006    121.293       657.598  4852      89228.160           0     4                    6991               132              0                0             7039                    0 1391         23   873         23    222         0                  0                15                  0          179     3742      623      0                  0 10002                   0                     0                   0         150
+          8952               197          1   1.005    126.447       684.847  5992     107766.680           0     5                    8441               164              0                0             8501                    0 1709         23  1054         23    263         0                  0                15                  0          203     4510      751      0                  0 12138                   0                     0                   0         150

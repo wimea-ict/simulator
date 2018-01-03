@@ -1,0 +1,27 @@
+## dioPeriod = 1.0
+## burstTimestamp = 20
+## minRssi = -97
+## numMotes = 13
+## otfHousekeepingPeriod = 5.0
+## sixtopNoRemoveWorstCell = 0
+## simDataDir = simData
+## numChans = 16
+## slotframeLength = 101
+## squareSide = 2.0
+## cpuID = None
+## sixtopPdrThreshold = 1.5
+## pkPeriod = 1.0
+## sixtopHousekeepingPeriod = 1.0
+## sixtopNoHousekeeping = 0
+## pkPeriodVar = 0.05
+## numCyclesPerRun = 100
+## startTime = 1510971374.23
+## slotDuration = 0.9
+## numRuns = 2
+## combinationKeys = ['numMotes', 'otfThreshold']
+## gui = True
+## numPacketsBurst = 5
+## otfThreshold = 1
+## noInterference = 0
+## slotLength = 3000
+

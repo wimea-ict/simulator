@@ -1,0 +1,68 @@
+## dioPeriod = 1.0
+## startTime = 1512310133.63
+## numMotes = 8
+## otfHousekeepingPeriod = 5.0
+## _init = True
+## slotframeLength = 101
+## squareSide = 2.0
+## cpuID = None
+## sixtopPdrThreshold = 1.5
+## slotDuration = 0.1
+## sixtopNoHousekeeping = 0
+## pkPeriodVar = 0.05
+## numCyclesPerRun = 100
+## numRuns = 2
+## otfThreshold = 4
+## sixtopNoRemoveWorstCell = 0
+## burstTimestamp = 20
+## slotLength = 3000
+## simDataDir = simData
+## numChans = 16
+## minRssi = -97
+## noInterference = 0
+## _instance = None
+## numPacketsBurst = 5
+## gui = True
+## pkPeriod = 1.0
+## combinationKeys = ['numMotes', 'otfThreshold']
+## sixtopHousekeepingPeriod = 1.0
+
+
+ #position of mote at runNum=0 mote id: 0 mote x,y coordinate: (1.00000,1.00000) mote-rank: None 
+ mote id: 1 mote x,y coordinate: (1.97004,0.12817) mote-rank: 33388 
+ mote id: 2 mote x,y coordinate: (1.84395,0.39697) mote-rank: 26553 
+ mote id: 3 mote x,y coordinate: (0.85247,1.27058) mote-rank: 7889 
+ mote id: 4 mote x,y coordinate: (0.01918,0.15897) mote-rank: 33075 
+ mote id: 5 mote x,y coordinate: (1.21387,1.07093) mote-rank: 5768 
+ mote id: 6 mote x,y coordinate: (1.81852,0.81308) mote-rank: 21493 
+ mote id: 7 mote x,y coordinate: (1.44727,0.04695) mote-rank: 26951 
+
+
+
+ #The topology of the simulation at numRun=0 1->6 
+ 2->5 
+ 3->0 
+ 5->0 
+ 6->0 
+ 7->6 
+
+
+ #position of mote at runNum=1 mote id: 0 mote x,y coordinate: (1.00000,1.00000) mote-rank: None 
+ mote id: 1 mote x,y coordinate: (1.90434,1.39960) mote-rank: 25310 
+ mote id: 2 mote x,y coordinate: (1.17473,0.32650) mote-rank: 17812 
+ mote id: 3 mote x,y coordinate: (1.09365,0.14104) mote-rank: 22119 
+ mote id: 4 mote x,y coordinate: (1.59812,1.83676) mote-rank: 26330 
+ mote id: 5 mote x,y coordinate: (0.33053,0.07913) mote-rank: 29145 
+ mote id: 6 mote x,y coordinate: (0.97753,1.19792) mote-rank: 5099 
+ mote id: 7 mote x,y coordinate: (0.20105,1.62051) mote-rank: 25897 
+
+
+
+ #The topology of the simulation at numRun=1 1->0 
+ 2->0 
+ 3->0 
+ 4->6 
+ 5->2 
+ 6->0 
+ 7->6 
+
