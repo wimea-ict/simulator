@@ -898,12 +898,11 @@ class Mote(object):
             tempList =[]
             for cell in self.combinedCellList:
                 if cell[2]==neighbor.id and cell[1]==dir:
-                    cells[cell[0]]=cell[2]
+                    cells[cell[0]]=cell[3]
+                    #cell[0] is time slot
                 else:
                     tempList.append(cell)
             self.combinedCellList=tempList
-            #print "Robert ",self.id,neighbor.id,cells,self.combinedCellList,cells
-            #cells                 = dict([(ts,random.randint(0,self.settings.numChans-1)) for ts in availableTimeslots[:numCells]])
 
             cellList              = []
 
@@ -1726,9 +1725,7 @@ class Mote(object):
         self.combinedCellList=schedule
         self.loggedSchedule = schedule
         self.engine.scheduler.slotFrameSize=self.settings.slotframeLength
-        #self.schedule.clear()
-        #self._app_schedule_sendSinglePacket(firstPacket=True)
-        #self.timer.start()
+
 
 
     def updateTimeSlot(self):

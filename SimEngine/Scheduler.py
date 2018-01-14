@@ -90,6 +90,7 @@ class Scheduler(object):
         for ts in range(self.TIMESLOTS):
             for j in range(self.FREQUENCIES):
                 key = random.randint(0,self.FREQUENCIES-1)
+
                 while linksdict.has_key(key):
                     key = random.randint(0,self.FREQUENCIES-1)
                 linksdict[key] =self.SlotFrame[j][ts]

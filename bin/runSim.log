@@ -22727,3 +22727,42 @@
 2017-12-19 08:58:32,935 [SimEngine:INFO] thread SimEngine ends
 2017-12-19 08:58:33,334 [SimEngine:INFO] thread SimEngine starting
 2017-12-19 08:59:12,220 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:11:28,930 [SimGui:INFO] SimGui starting
+2018-01-14 21:11:37,091 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:11:47,596 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:11:57,740 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:12:11,791 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:12:11,914 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:12:24,911 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:12:25,034 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:12:40,100 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:12:40,279 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:12:53,976 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:12:54,103 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:13:07,915 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:45:57,391 [SimGui:INFO] SimGui starting
+2018-01-14 21:46:10,749 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:46:34,734 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:46:35,223 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:47:16,352 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:47:16,926 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:47:50,360 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:47:50,540 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:48:30,878 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:48:32,487 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:49:14,173 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 21:49:15,822 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 21:49:59,139 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 22:21:23,647 [SimGui:INFO] SimGui starting
+2018-01-14 22:21:25,460 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 22:21:39,615 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 22:21:39,716 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 22:21:55,140 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 22:21:55,285 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 22:22:10,419 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 22:22:10,527 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 22:22:25,419 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 22:22:25,571 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 22:22:39,543 [SimEngine:INFO] thread SimEngine ends
+2018-01-14 22:22:39,696 [SimEngine:INFO] thread SimEngine starting
+2018-01-14 22:22:54,023 [SimEngine:INFO] thread SimEngine ends

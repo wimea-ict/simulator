@@ -120,7 +120,6 @@ class SimStats(object):
 
         for mote in self.engine.motes:
             for ts in mote.schedule:
-
                 b =[mote.id,  ts, mote.schedule[ts]['ch']]
                 with open(self.Schedulefilename,'a') as f:
                     wtr = csv.writer(f, delimiter= ' ')
