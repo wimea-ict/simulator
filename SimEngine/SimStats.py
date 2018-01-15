@@ -143,6 +143,9 @@ class SimStats(object):
         '''Called at each end of cycle.'''
         self.createOutputFiles()
 
+        self._fileWriteTopology()
+        self.writingTheSchedule()
+
 
         cycle = int(self.engine.getAsn()/self.settings.slotframeLength)
 
@@ -445,45 +448,7 @@ class SimStats(object):
             )
         ]
 
-        '''
-        #printing schedules of a mote
-        output+=["\n PACKET STRUCTURE FOR EACH MOTE AT RUNNUM {0}".format(self.runNum)]
-        for mote in self.engine.motes:
-            output+=['packets received at the sink node for mote {0}'.format(mote.id)]
-            for (m,x,y) in mote.packetStructure:
-                output +=[
-                    'Sending mote:{0}    Type:{1}    TimeSlot:{2}'.format(m,x,y)
 
-                ]
-
-
-        #printing the updated schedules of the motes
-        output+=["\n THESE ARE THE SCHEDULES FOR THE MOTE AT RUN {0}".format(self.runNum)]
-        for mote in self.engine.motes:
-            output+=['Schedules for mote {0}'.format(mote.id)]
-            for ts in mote.schedule:
-                output+=['TimeSlot:{0}   Schedules:: channel:{1}     numTx: {2}      numRx:{3}    neighbor:{4}      dir:{5}'.format(ts, mote.schedule[ts]["ch"], mote.schedule[ts]["numTx"],  mote.schedule[ts]["numRx"],  mote.schedule[ts]["neighbor"].id, mote.schedule[ts]["dir"])]
-
-
-        #printing schedules of a mote
-        output+=["\n THESE ARE THE SCHEDULES FOR THE MOTE AT RUN {0}".format(self.runNum)]
-        for mote in self.engine.motes:
-            output+=['Schedules for mote {0}'.format(mote.id)]
-            for (ts,type,n,m) in mote.loggedSchedule:
-                output +=[
-                    'Timeslot: {0}       transmission Type:{1}       Direction:{2}       channel:{3}'.format(ts,type,n,m)
-
-                ]
-
-
-        #prinitng the average charge chargeConsumed by each mote at this run
-        output += [
-            '\n #aveChargePerCycle runNum={0} {1}\n'.format(
-                self.runNum,
-                ' '.join(['mote-id:{0}  averagechargeConsumed:@{1:.2f} \n'.format(mote.id,mote.getMoteStats()['chargeConsumed']/self.settings.numCyclesPerRun) for mote in self.engine.motes])
-            )
-        ]
-        '''
         output  = '\n'.join(output)
 
         with open(self.settings.getOutputFile(),'a') as f:
