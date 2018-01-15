@@ -7,19 +7,18 @@
 
 from Link import Link
 
+import SimSettings
 import SimEngine
 
-import SimSettings
+
 import Mote
 import random
 
 
 
 class Scheduler(object):
-    TIMESLOTS,FREQUENCIES =100,16
-    SlotFrame=[[None for ts in range(TIMESLOTS)] for ts in range(FREQUENCIES)]
     def __init__(self):
-
+        self.setting = SimSettings.SimSettings()
         self.schedules  = {}
         self.linksavailable ={}
         self.links           = []
@@ -27,7 +26,9 @@ class Scheduler(object):
         self.linksrequired   = []
         self.linksList       = []
         self.slotFrameSize   = 1
-        #self.settings                  = SimSettings.SimSettings()
+        self.timeslots       = self.setting.slotframeLength
+        self. channels =self.setting.numChans
+        self.slotFrame = [[None for ts in range(self.timeslots)] for ts in range(self.channels)]
 
     def generateCompartibleLinks(self,linksList):
         count =0
@@ -46,7 +47,7 @@ class Scheduler(object):
 
     def isConstraints(self,link,timeSlot):
         #checks if the assignment link to the passed timeSlot fails dues to any constraint
-        singleSlot=[row[timeSlot] for row in  self.SlotFrame]
+        singleSlot=[row[timeSlot] for row in  self.slotFrame]
         if any(x==link for x in singleSlot):
             return True
         for link1 in singleSlot:
@@ -57,25 +58,25 @@ class Scheduler(object):
         return False
 
     def schedule(self,linksList):
-        #SlotFrame=[[None for ts in range(TIMESLOTS)] for ts in range(FREQUENCIES)]
-        for i in range(self.FREQUENCIES):
-            for j in range(self.TIMESLOTS):
-                self.SlotFrame[i][j] = None
+        #SlotFrame=[[None for ts in range(timeslots)] for ts in range(channels)]
+        for i in range(self.channels):
+            for j in range(self.timeslots):
+                self.slotFrame[i][j] = None
         linksList = self.generateCompartibleLinks(linksList)
         linksListCopy = linksList[:]
         while(len(linksListCopy)>0):
             cur_link = self.chooseNextLink(linksListCopy)
             linkassigned = False
             channelOffset,timeSlot =0,0
-            while(timeSlot<self.TIMESLOTS):
-                if channelOffset==self.FREQUENCIES:
+            while(timeSlot<self.timeslots):
+                if channelOffset==self.channels:
                     timeSlot+=1
                     channelOffset=0
-                if not self.SlotFrame[channelOffset][timeSlot] == None:
+                if not self.slotFrame[channelOffset][timeSlot] == None:
                     channelOffset+=1
                     continue
                 if not self.isConstraints(cur_link,timeSlot):
-                    self.SlotFrame[channelOffset][timeSlot]=cur_link
+                    self.slotFrame[channelOffset][timeSlot]=cur_link
                     linkassigned =True
                     break
                 else:
@@ -87,19 +88,19 @@ class Scheduler(object):
                 del linksListCopy[linksListCopy.index(cur_link)]
         #Randomise channels assigned to each links
         linksdict ={}
-        for ts in range(self.TIMESLOTS):
-            for j in range(self.FREQUENCIES):
-                key = random.randint(0,self.FREQUENCIES-1)
-
+        for ts in range(self.timeslots):
+            for j in range(self.channels):
+                key = random.randint(0,self.channels-1)
                 while linksdict.has_key(key):
-                    key = random.randint(0,self.FREQUENCIES-1)
-                linksdict[key] =self.SlotFrame[j][ts]
-            for j in range(self.FREQUENCIES):
-                self.SlotFrame[j][ts]=None
+                    key = random.randint(0,self.channels-1)
+                linksdict[key] =self.slotFrame[j][ts]
+            for j in range(self.channels):
+                self.slotFrame[j][ts]=None
             for key, value in linksdict.items():
-                self.SlotFrame[key][ts]=value
+
+                self.slotFrame[key][ts]=value
             linksdict.clear()
-        return self.SlotFrame
+        return self.slotFrame
 
     def createLinks(self):
         self.links=[]
@@ -130,12 +131,11 @@ class Scheduler(object):
         return self.linksList
 
     def updateMoteSchedules(self):
-        TIMESLOTS,FREQUENCIES =100,16
         motes_timeslot={}
         linksList = [m for m in self.createLinksList()]
         slotFrame =self.schedule(linksList)
-        for i in range(FREQUENCIES):
-            for j in range(TIMESLOTS):
+        for i in range(self.channels):
+            for j in range(self.timeslots):
                 link=slotFrame[i][j]
                 if link == None:
                     continue
@@ -151,7 +151,7 @@ class Scheduler(object):
                     if (j+1)>self.slotFrameSize:
                         self.slotFrameSize=(j+1)
         #double the slot frame to create free time slots
-        self.slotFrameSize = 101
+        self.slotFrameSize = self.setting.slotframeLength
         for mote in self.engine.motes:
             if motes_timeslot.has_key(mote.id):
                 mote.assignSchedule(motes_timeslot[mote.id],self.slotFrameSize)
