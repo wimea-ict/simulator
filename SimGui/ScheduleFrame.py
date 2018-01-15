@@ -116,8 +116,7 @@ class ScheduleFrame(Tkinter.Frame):
         try:
 
             self.linksList=[]
-
-            self.SlotFrame =self.engine.scheduler.SlotFrame
+            self.SlotFrame =self.engine.scheduler.slotFrame
             print "scheduleFrame ran"
             self.update_period=int(100*self.settings.numCyclesPerRun)
             self._redrawSchedule()
@@ -147,8 +146,8 @@ class ScheduleFrame(Tkinter.Frame):
 
 
         # color according to usage
-        for i in range(16):
-            for j in range(100):
+        for i in range(self.settings.numChans):
+            for j in range(self.settings.slotframeLength):
                 if not self.SlotFrame[i][j] == None:
                    color = self.schedule.itemcget(self.cells[j][i], "fill")
                    if not color:

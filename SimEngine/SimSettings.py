@@ -50,6 +50,7 @@ class SimSettings(object):
         #===== end singleton
 
         self.__dict__.update(kwargs)
+        print "I accepted"
 
     def setStartTime(self,startTime):
         self.startTime       = startTime
